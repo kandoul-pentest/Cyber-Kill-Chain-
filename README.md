@@ -29,7 +29,7 @@ Création de l'arme numérique combinant malware et exploit.
 Transmission du payload malveillant à la cible.
 
 
-### 🎯  exploitation
+### 4. exploitation
 Phase where the attacker activates their malicious code after infiltrating the system.
 
 ### 🔧 Common Techniques  
@@ -44,12 +44,12 @@ Phase where the attacker activates their malicious code after infiltrating the s
    End Sub
 
    
- ## 🔐 Installation (Persistance)
+ ## 5. Installation (Persistance)
 
 ### 🎯 Définition
 Phase où l'attaquant s'installe durablement dans le système.
 
-## 🕹️ Command & Control (C2)
+## 🕹6. Command & Control (C2)
 
 ### 🔌 Définition
 Mécanisme permettant aux attaquants de **contrôler à distance** les machines compromises.
