@@ -28,17 +28,8 @@ Création de l'arme numérique combinant malware et exploit.
 **Définition** :  
 Transmission du payload malveillant à la cible.
 
-**Méthodes courantes** :
-```mermaid
-pie title Méthodes de Livraison (2023)
-    "Phishing" : 65
-    "Sites compromis" : 20
-    "USB malveillants" : 10
-    "Autres" : 5
 
-
-
-### 🎯 Definition  
+### 🎯  exploitation
 Phase where the attacker activates their malicious code after infiltrating the system.
 
 ### 🔧 Common Techniques  
@@ -46,5 +37,10 @@ Phase where the attacker activates their malicious code after infiltrating the s
    Example: `CVE-2023-1234` (buffer overflow)
 
 2. **Malicious documents**  
-  
+  2. **Malicious documents**  
+   ```vba
+   ' Simplified malicious Word macro
+   Sub AutoOpen()
+       Shell "cmd /c powershell -nop -w hidden -e JABzAD0A..."
+   End Sub
 
