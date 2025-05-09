@@ -35,18 +35,18 @@ pie title Méthodes de Livraison (2023)
     "Sites compromis" : 20
     "USB malveillants" : 10
     "Autres" : 5
-## 💥 Exploitation
+## 4. Exploitation
 
-### 🎯 Définition
-Phase où l'attaquant active son code malveillant après avoir infiltré le système.
+### 🎯 Definition
+Phase where the attacker activates their malicious code after infiltrating the system.
 
-### 🔧 Techniques courantes
-1. **Exploitation de vulnérabilités logicielles**  
-   Exemple : `CVE-2023-1234` (dépassement de tampon)
+### 🔧 Common Techniques
+1. **Software vulnerability exploitation**  
+   Example: `CVE-2023-1234` (buffer overflow)
 
-2. **Documents malveillants**  
+2. **Malicious documents**  
    ```vba
-   ' Macro Word malveillante simplifiée
+   ' Simplified malicious Word macro
    Sub AutoOpen()
        Shell "cmd /c powershell -nop -w hidden -e JABzAD0A..."
    End Sub
