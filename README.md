@@ -35,17 +35,15 @@ pie title Méthodes de Livraison (2023)
     "Sites compromis" : 20
     "USB malveillants" : 10
     "Autres" : 5
-## 4. 💥 Exploitation (Piratage)
+## 💥 Exploitation (Compromission)
 
-##  🎯 C'est quoi ?
-Le moment où le pirate **active son attaque** après être entré dans le système.
+### 🎯 Définition
+Phase où l'attaquant **exploite activement** une vulnérabilité pour exécuter du code malveillant.
 
-##  🔧 Comment ça marche ?
-1. Le pirate utilise :
-   - Un **lien piégé** (phishing)
-   - Une **faille logicielle** (ex: CVE-2023-1234)
-   - Une **macro Word** malveillante
-
-2. Résultat :  
-   ```text
-   [Attaquant]$ Accès réussi !  
+### 🔧 Mécanismes d'Attaque
+```mermaid
+graph TD
+    A[Vecteur d'attaque] --> B{Type d'exploitation}
+    B --> C[Exploit logiciel]
+    B --> D[Ingénierie sociale]
+    B --> E[Zero-Day]
