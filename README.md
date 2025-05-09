@@ -54,14 +54,14 @@ Phase où l'attaquant s'installe durablement dans le système.
 ### 🔌 Définition
 Mécanisme permettant aux attaquants de **contrôler à distance** les machines compromises.
 
-## 💰 Actions on Objectives (Exfiltration)
+## 7. Actions on Objectives (Exfiltration)
 
 ### 🎯 Définition
 Phase finale où l'attaquant **réalise son objectif** (vol de données, sabotage, etc.).
 ## 🔍 Practice Analysis - Target Breach 2013
 
 ### 📸 Attack Flow Visualization
-![Target Breach Kill Chain](images/target_attack.png)  
+![Target Breach Kill Chain](task.jpeg)  
 *Visual breakdown of the Target Corporation cyberattack*
 
 ### 🔗 Kill Chain Mapping
