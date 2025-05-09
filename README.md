@@ -37,10 +37,10 @@ pie title Méthodes de Livraison (2023)
     "Autres" : 5
 ## 4. 💥 Exploitation (Piratage)
 
-** 🎯 C'est quoi ?**
+##  🎯 C'est quoi ?
 Le moment où le pirate **active son attaque** après être entré dans le système.
 
-**🔧 Comment ça marche ?**
+##  🔧 Comment ça marche ?
 1. Le pirate utilise :
    - Un **lien piégé** (phishing)
    - Une **faille logicielle** (ex: CVE-2023-1234)
