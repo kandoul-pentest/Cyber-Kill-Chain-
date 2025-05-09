@@ -98,3 +98,25 @@ graph TD
     C --> D[Exploit: Credential Theft]
     D --> E[Lateral Movement]
     E --> F[POS Data Exfiltration].
+## 3. Delivery (Livraison)
+**Définition** :  
+Transmission du payload malveillant à la cible.
+
+**Méthodes courantes** :
+```mermaid
+pie title Méthodes de Livraison (2023)
+    "Phishing" : 65
+    "Sites compromis" : 20
+    "USB malveillants" : 10
+    "Autres" : 5
+## 💥 Exploitation
+
+### 🎯 Definition
+The phase where attackers **execute malicious code** by exploiting vulnerabilities in systems or human behavior.
+
+### 🔧 Common Techniques
+```mermaid
+pie title Exploitation Methods (2023)
+    "Software Vulnerabilities" : 55
+    "Phishing Links" : 30
+    "Human Error" : 15
