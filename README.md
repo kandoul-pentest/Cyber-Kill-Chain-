@@ -35,15 +35,18 @@ pie title Méthodes de Livraison (2023)
     "Sites compromis" : 20
     "USB malveillants" : 10
     "Autres" : 5
-## 💥 Exploitation (Compromission)
+## 💥 Exploitation
 
 ### 🎯 Définition
-Phase où l'attaquant **exploite activement** une vulnérabilité pour exécuter du code malveillant.
+Phase où l'attaquant active son code malveillant après avoir infiltré le système.
 
-### 🔧 Mécanismes d'Attaque
-```mermaid
-graph TD
-    A[Vecteur d'attaque] --> B{Type d'exploitation}
-    B --> C[Exploit logiciel]
-    B --> D[Ingénierie sociale]
-    B --> E[Zero-Day]
+### 🔧 Techniques courantes
+1. **Exploitation de vulnérabilités logicielles**  
+   Exemple : `CVE-2023-1234` (dépassement de tampon)
+
+2. **Documents malveillants**  
+   ```python
+   # Macro Word malveillante simplifiée
+   Sub AutoOpen()
+       Shell("cmd /c powershell -nop -w hidden -e JABzAD0A...")
+   End Sub
