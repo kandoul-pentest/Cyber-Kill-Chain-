@@ -37,10 +37,38 @@ Phase where the attacker activates their malicious code after infiltrating the s
    Example: `CVE-2023-1234` (buffer overflow)
 
 2. **Malicious documents**  
-  2. **Malicious documents**  
    ```vba
    ' Simplified malicious Word macro
    Sub AutoOpen()
        Shell "cmd /c powershell -nop -w hidden -e JABzAD0A..."
    End Sub
 
+   
+ ## 🔐 Installation (Persistance)
+
+### 🎯 Définition
+Phase où l'attaquant s'installe durablement dans le système.
+
+## 🕹️ Command & Control (C2)
+
+### 🔌 Définition
+Mécanisme permettant aux attaquants de **contrôler à distance** les machines compromises.
+
+## 💰 Actions on Objectives (Exfiltration)
+
+### 🎯 Définition
+Phase finale où l'attaquant **réalise son objectif** (vol de données, sabotage, etc.).
+## 🔍 Practice Analysis - Target Breach 2013
+
+### 📸 Attack Flow Visualization
+![Target Breach Kill Chain](images/target_attack.png)  
+*Visual breakdown of the Target Corporation cyberattack*
+
+### 🔗 Kill Chain Mapping
+```mermaid
+graph TD
+    A[Recon: HVAC Vendor] --> B[Weapon: Malware]
+    B --> C[Delivery: Vendor Portal]
+    C --> D[Exploit: Credential Theft]
+    D --> E[Lateral Movement]
+    E --> F[POS Data Exfiltration]
