@@ -35,6 +35,8 @@ pie title Méthodes de Livraison (2023)
     "Sites compromis" : 20
     "USB malveillants" : 10
     "Autres" : 5
+
+
 ## 4. Exploitation
 
 ### 🎯 Definition
